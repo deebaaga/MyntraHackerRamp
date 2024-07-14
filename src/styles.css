@@ -1,0 +1,110 @@
+/*color pallette for css*/
+:root {
+  --frostbite: #bb51ec;
+  --imperial-red: #32165c;
+  --royal-orange: #d693cb;
+  --halloween-orange: #c3d8fc;
+  --gunmetal: #da25bd;
+}
+main {
+  margin-top: 100px;
+  padding: 20px;
+}
+
+body {
+  background-image: linear-gradient(90deg, #bb51ec 20%, #d863c5 70%);
+}
+header {
+  background-color: #32165c;
+  text-align: center;
+  width: 100%;
+  color: #f626b6;
+
+  position: fixed;
+  max-height: fit-content;
+  top: 0;
+  left: 0;
+}
+h1 {
+  text-align: center;
+  font-family: "Chakra Petch", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  color: #da25bd;
+  margin-bottom: 3px;
+}
+#theme {
+  text-align: center;
+  font-family: "Chakra Petch", sans-serif;
+  margin-top: 1px;
+  font-weight: bolder;
+  color: #d863c5;
+}
+h2 {
+  font-family: "Chakra Petch", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  color: #32165c;
+  margin-top: 10px;
+}
+h4 {
+  font-family: "Chakra Petch", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  position: relative;
+  left: 510px;
+  font-size: 40px;
+  color: #32165ca5;
+  margin-bottom: 5px;
+}
+#click {
+  margin-left: 6px;
+  color: #ae1d96;
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+.searchT {
+  background-color: #fa8cfc;
+  font-family: "Chakra Petch", sans-serif;
+  max-width: 600px;
+  border: 2px solid #32165c78;
+  border-radius: 100px;
+  width: 80%;
+  padding: 14px 20px;
+  font-weight: bold;
+}
+.submitT {
+  background-color: #da25bd;
+  font-family: "Chakra Petch", sans-serif;
+  padding: 14px 20px;
+  width: fit-content;
+  border: 2px solid #32165c62;
+  border-radius: 100px;
+  margin-left: 4px;
+  font-size: 13px;
+  color: #32165c;
+  font-weight: bold;
+}
+.submitT:hover {
+  background-color: #32165c;
+  color: #da25bd;
+  transition-duration: 0.29s;
+  transform: translateX(1px);
+  cursor: pointer;
+}
+footer {
+  background-image: linear-gradient(160deg, #f25b1f 30%, #fe943b 70%);
+  text-align: center;
+  width: 100%;
+  color: #32165c;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: x-large;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
